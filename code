@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Mon Portfolio</h1>
+        <p>Bienvenue dans mon univers artistique : découvrez mes créations graphiques et mes dessins.</p>
+    </header>
 
+    <main>
+        <section id="graphisme">
+            <h2>Graphisme</h2>
+            <div class="gallery">
+                <!-- Placez vos images de graphisme ici -->
+                <img src="image1.jpg" alt="Création graphique 1">
+                <img src="image2.jpg" alt="Création graphique 2">
+            </div>
+        </section>
+
+        <section id="dessin">
+            <h2>Dessin</h2>
+            <div class="gallery">
+                <!-- Placez vos images de dessin ici -->
+                <img src="image3.jpg" alt="Dessin 1">
+                <img src="image4.jpg" alt="Dessin 2">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mon Portfolio</p>
+    </footer>
+</body>
+</html>
